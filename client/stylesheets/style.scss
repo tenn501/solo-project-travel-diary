@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+$Rust: #b56357;
+$Mint: #b4dbc0;
+$Slate: #eae3ea;
+$Foam: #a7b3a5;
+
+$Ice: #99d3df;
+$Water: #88bbd6;
+$Plaster: #cdcdcd;
+$Linen: #e9e9e9;
+$FadedBlack: rgb(41, 41, 41);
+
+$font: "Open Sans", sans-serif;
+$fontHand: "Great Vibes", cursive;
+
+body {
+  background-color: $Plaster;
+  margin: 0;
+
+}
+
+// #root {
+//   display: flex;
+//   justify-content: center;
+// }
+
+.headContainer {
+  background-color: $Water;
+  width:100vw;
+  margin-bottom: 1vw;
+  // position: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+#header {
+  width:100vw;
+  height: 10vw;
+  // max-width: 110%;
+  margin-bottom: 5vw;
+}
+
+#headerText {
+  font-family: $fontHand;
+  // font-optical-sizing: auto;
+  color: $Linen;
+  font-weight: bolder;
+  font-size: 7vw;
+  font-style:normal ;
+  display:flex;
+  // justify-self: center;
+  align-self: center;
+}
+
+.entryContainer {
+  // position: absolute;
+  background-color: $Linen;
+  width: 90vw;
+  // height: auto;
+  margin: auto;
+  padding: 2vw;
+  font-family: $font;
+  font-size: 1vw;
+  color: $Water;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  // justify-self: center;
+  align-self: center;
+}
+
+// #entry_component {
+  // display: flex;
+  // justify-self: center;
+// }
+
+.placeholders {
+  font-size: 1.5vw;
+  font-family: $font;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1vw;
+  margin: 1vw;
+}
+
+#title_input {
+  width: 25vw ;
+  height: 3rem ;
+  font-family: $font; 
+  color: $FadedBlack;
+  border-color: $Linen;
+  outline-color: $Ice;
+  display: flex;
+  // justify-self: flex-start;
+}
+
+#description_input {
+  width: 40vw ;
+  height: 10vw ;
+  font-family: $font;
+  color: $FadedBlack;
+  border-color: $Linen;
+  outline-color: $Ice;
+  // font-size: 10vw;
+  // display: block;
+  display: flex;
+  // justify-self: flex-end;
+}
+
+
+button {
+  color: $Linen;
+  background-color: $Water;
+  font-family: $font;
+  font-size: 5vw;
+  font-size: larger ;
+  border-style: none;
+  &:hover {
+        background-color: $Rust;
+        border-style: none;
+        color: $Slate;
+        border-color: $Rust;
+      }
+  text-decoration:none;
+  padding: 0.3vw 1.5vw;
+  border-radius: 1rem;
+  border-color: $Water;
+ }
+
+ .memoryContainer {
+  background-color: $Linen;
+  width: 90vw;
+  height: auto;
+  margin: auto;
+  margin-top: 2vw;
+  padding: 2vw;
+  font-family: $font;
+  font-size: 2vw;
+  color: $Water;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center ;
+  justify-self: center;
+  align-self: center;
+ }
